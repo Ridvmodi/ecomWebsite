@@ -30,7 +30,14 @@ export default class Coursecart extends Component {
                                                 <h6 className="mb-0 text-success">$ {node.price}</h6>
                                             </div>
                                             <p className="text-muted"><small>{node.description.description}</small></p>
-                                            <button className="btn btn-warning">Join Now</button>
+                                            <button
+                                             className="btn btn-warning snipcart-add-item"
+                                             data-item-id={node.id}
+                                            data-item-name={node.title}
+                                            data-item-price={node.price}
+                                            data-item-url="https://learncodeonline.in"
+                                            data-item-image={node.image.fixed.src}
+                                             >Join Now</button>
                                         </div>
                                     </div>
                                 )
