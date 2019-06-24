@@ -7,19 +7,21 @@ import HeroSection from "../components/Reuseable/HeroSection"
 import InfoBlock from "../components/Reuseable/InfoBlock"
 import DualInfoBlock from "../components/Reuseable/DualInfoBlock"
 import TeamSection from "../components/About/TeamSection"
+import Heading from '../components/Reuseable/Heading'
 
 const AboutPage = ({data}) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="About" />
     <HeroSection 
       img={data.img.childImageSharp.fluid}
       title="I Write Code"
       subtitle=""
       heroclass="about-background"
     />
-    <DualInfoBlock heading="A messagge from CEO" url="https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
     <InfoBlock heading="About Us" />
+    <Heading title="Meet Our Team" />
     <TeamSection />
+    <DualInfoBlock heading="A messagge from CEO" url="https://images.pexels.com/photos/1261427/pexels-photo-1261427.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
   </Layout>
 )
 

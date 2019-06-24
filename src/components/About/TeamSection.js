@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function TeamSection() {
     return (
-        <div className="row mx-auto">
+        <div className="row mx-auto pb-5 team-section">
             <div className="col-10 col-sm-10 mx-auto">
                 <div className="card-group">
                     <div className="card">
