@@ -11,3 +11,12 @@
 - Snipcart
 - Contentful
 - formspree
+
+## Steps to Run
+Run command
+`
+gatsby develop
+`
+
+## Running at
+[https://ecomwebsite.netlify.com](https://ecomwebsite.netlify.com)
