@@ -4,5 +4,10 @@
 
 ## Tech used
 - React
-- Gatsby
 - Graphql
+
+## Libraries and FrameWork
+- Gatsby
+- Snipcart
+- Contentful
+- formspree
