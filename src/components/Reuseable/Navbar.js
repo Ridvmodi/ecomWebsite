@@ -42,7 +42,7 @@ export default class Navbar extends Component {
                     <img src={logo} alt="logo goes here" width="40px"/>
                 </Link>
                 <button className="navbar-toggler" type="button" onClick={this.myToggler}>
-                    <span className="text-white">menu</span>
+                    <span className="text-white">Menu</span>
                 </button>
                 <div className={this.state.navbarClass}>
                     <ul className="navbar-nav ml-auto mr-5">
